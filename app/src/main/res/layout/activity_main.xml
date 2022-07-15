@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpapermario"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fundatec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aluna"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/icons"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/cogu"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/coguyellow"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/up"/>
+    </LinearLayout>
+</RelativeLayout>
