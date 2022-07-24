@@ -1,4 +1,4 @@
 # Atividades de Linguagem de Programação 4
 
-* Splash Activity 
+* Splash Screen Activity 
 * Login redirect
